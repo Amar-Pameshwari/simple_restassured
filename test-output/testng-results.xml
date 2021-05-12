@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55550" started-at="2021-05-10T20:54:27 IST" finished-at="2021-05-10T20:55:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55550" started-at="2021-05-10T20:54:27 IST" finished-at="2021-05-10T20:55:23 IST">
+      <class name="Inbound_Testing.InboundTesting">
+        <test-method status="PASS" signature="P10_BankFee()[pri:0, instance:Inbound_Testing.InboundTesting@47db50c5]" name="P10_BankFee" duration-ms="55488" started-at="2021-05-10T20:54:27 IST" finished-at="2021-05-10T20:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_BankFee -->
+      </class> <!-- Inbound_Testing.InboundTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

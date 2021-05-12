@@ -1,0 +1,74 @@
+{
+  "RecordId": "27807",
+  "Header": [
+    {
+      "RPA_HeaderID": "1335",
+      "ContentProcessID": "20001",
+      "Account_Number": "0014231",
+      "Currency": "USD",
+      "Company_Code": "1001",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "Test Data",
+      "Bank_Name": "BNY",
+      "Total_Amount": "657.33",
+      "ERP": "SAPC11",
+      "Value_Date": "04.06.2021",
+      "Approval_Comments": "TestApprove",
+      "Approval_Reference": "testapp",
+      "Customer_Number": "6014040",
+      "Transaction_Code": "SAPC11#3227#39",
+      "Tax_Code": "",
+      "Posting_Date": "04.07.2021"
+    }
+
+  ],
+
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "1",
+      "ContentProcessID": "20001",
+      "RPA_HeaderID": "1335",
+      "Company_Code": "1001",
+      "Currency": "USD",
+      "Reference": "9400020695",
+      "Account_Number": "0014231",
+      "Check_Number": "",
+      "Invoice_Number": "9400020695",
+      "Invoice_Amount": "330.95",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": "",
+      "Customer_Name": "HENRY KJELDSEN RINGKOB TOM.HAND A/S",
+      "Customer_Number": "6014040",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "approved"
+    },
+	{
+      "RPA_LineitemID": "2",
+      "ContentProcessID": "20001",
+      "RPA_HeaderID": "1336",
+      "Company_Code": "1001",
+      "Currency": "USD",
+      "Reference": "9400020696",
+      "Account_Number": "0014231",
+      "Check_Number": "",
+      "Invoice_Number": "9400020696",
+      "Invoice_Amount": "326.38",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": "",
+      "Customer_Name": "HENRY KJELDSEN RINGKOB TOM.HAND A/S",
+      "Customer_Number": "6014040",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "approved"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "RecordId": "27807",
+  "Header": [
+    {
+      "RPA_HeaderID": "1335",
+      "ContentProcessID": "40001",
+      "Account_Number": "0014231",
+      "Currency": "CAD",
+      "Company_Code": "0010",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "Test Data",
+      "Bank_Name": "RBC",
+      "Total_Amount": "45461.42",
+      "ERP": "SAPC11",
+      "Value_Date": "04.06.2021",
+      "Approval_Comments": "TestApprove",
+      "Approval_Reference": "testapp",
+      "Customer_Number": "A000045",
+      "Transaction_Code": "SAPC11#3226#23",
+      "Tax_Code": "",
+      "Posting_Date": "04.07.2021"
+    }
+
+  ],
+
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "1",
+      "ContentProcessID": "40001",
+      "RPA_HeaderID": "1386",
+      "Company_Code": "0010",
+      "Currency": "CAD",
+      "Reference": "9400019374",
+      "Account_Number": "0014231",
+      "Check_Number": "",
+      "Invoice_Number": "9400019374",
+      "Invoice_Amount": "2875.00",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": "",
+      "Customer_Name": "HENRY KJELDSEN RINGKOB TOM.HAND A/S",
+      "Customer_Number": "A000045",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "approved"
+    },
+	{
+      "RPA_LineitemID": "2",
+      "ContentProcessID": "40001",
+      "RPA_HeaderID": "1386",
+      "Company_Code": "0010",
+      "Currency": "CAD",
+      "Reference": "9400019373",
+      "Account_Number": "0014231",
+      "Check_Number": "",
+      "Invoice_Number": "9400019373",
+      "Invoice_Amount": "2875.00",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2018",
+      "Tax_Code": "",
+      "Customer_Name": "HENRY KJELDSEN RINGKOB TOM.HAND A/S",
+      "Customer_Number": "A000045",
+      "Business_Area": "",
+      "Variance": "39711.42",
+      "Reason_of_Variance": "Over Payment",
+      "GLCode": "",
+      "Comments": "approved"
+    }
+  ]
+}

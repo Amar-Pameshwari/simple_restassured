@@ -1,0 +1,144 @@
+2021-05-10 20:54:27 INFO  payLoadsConvertor:16 - Inside payloads fn:
+2021-05-10 20:54:28 INFO  InboundTesting:30 - **** Test Cases : Post Method *****
+2021-05-10 20:54:28 INFO  URL:51 - PetStore URL Endpoint: https://d-api.sbdinc.com/corpjourneycaa/v1/Inbound/post
+2021-05-10 20:54:28 INFO  RestCalls:43 - Post Request Call-
+2021-05-10 20:55:16 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://d-api.sbdinc.com:443
+2021-05-10 20:55:16 DEBUG DefaultClientConnectionOperator:177 - Connecting to d-api.sbdinc.com:443
+2021-05-10 20:55:19 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-05-10 20:55:19 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2021-05-10 20:55:19 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-05-10 20:55:19 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-05-10 20:55:19 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2021-05-10 20:55:19 DEBUG DefaultClientConnection:274 - Sending request: POST /corpjourneycaa/v1/Inbound/post?Agora-Subscription-Key=48dfe6a704414f4c9f61b37a6b983fd7 HTTP/1.1
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "POST /corpjourneycaa/v1/Inbound/post?Agora-Subscription-Key=48dfe6a704414f4c9f61b37a6b983fd7 HTTP/1.1[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "Content-Length: 1397[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "Host: d-api.sbdinc.com[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "[\r][\n]"
+2021-05-10 20:55:19 DEBUG headers:278 - >> POST /corpjourneycaa/v1/Inbound/post?Agora-Subscription-Key=48dfe6a704414f4c9f61b37a6b983fd7 HTTP/1.1
+2021-05-10 20:55:19 DEBUG headers:281 - >> Accept: */*
+2021-05-10 20:55:19 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-05-10 20:55:19 DEBUG headers:281 - >> Content-Length: 1397
+2021-05-10 20:55:19 DEBUG headers:281 - >> Host: d-api.sbdinc.com
+2021-05-10 20:55:19 DEBUG headers:281 - >> Connection: Keep-Alive
+2021-05-10 20:55:19 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+2021-05-10 20:55:19 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "{[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "  "RecordId": "27807",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "  "Header": [[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "    {[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "RPA_HeaderID": "1335",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "ContentProcessID": "50001",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Account_Number": "0010651",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Currency": "USD",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Company_Code": "1070",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Variance": "",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Reason_of_Variance": "",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "GLCode": "121000",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Comments": "Test Data",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Bank_Name": "BNY",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Total_Amount": "100.00",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "ERP": "SAPP10",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Value_Date": "10.31.2020",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Approval_Comments": "TestApprove",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Approval_Reference": "testapp",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Customer_Number": "10003536",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Transaction_Code": "SAPP10#745#1",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Tax_Code": "",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Posting_Date": "04.11.2021"[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "    }[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "  ],[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "  "Lineitem": [[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "    {[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "RPA_LineitemID": "1",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "ContentProcessID": "50001",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "RPA_HeaderID": "1335",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Company_Code": "1070",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Currency": "USD",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Reference": "1800000315",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Account_Number": "0010651",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Check_Number": "010005642",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Invoice_Number": "1800000315",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Invoice_Amount": "100.00",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Line_Item_Number": "1",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Fiscal_Year": "2021",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Tax_Code": "",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Customer_Name": "ABB DAIMLER BENZ TRANSPORTATION",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Customer_Number": "10003536",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Business_Area": "",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Variance": "-50.00",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Reason_of_Variance": "Bank Fee",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "GLCode": "72050000",[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "      "Comments": "approved"[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "    }[\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "  ][\r][\n]"
+2021-05-10 20:55:19 DEBUG wire:73 -  >> "}[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Cache-Control: no-cache[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Pragma: no-cache[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Transfer-Encoding: chunked[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Expires: -1[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-workflow-run-id: 08585809465651622437889109449CU00[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-correlation-id: 71278300-7ef4-46cc-8b9d-40282aa0c810[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-client-tracking-id: 08585809465651622437889109449CU00[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-trigger-history-name: 08585809465651622437889109449CU00[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-execution-location: eastus[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-workflow-system-id: /locations/eastus/scaleunits/prod-03/workflows/21a2c519adea46fa8226d9348badd1c9[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-workflow-id: 21a2c519adea46fa8226d9348badd1c9[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-workflow-version: 08585814689006886586[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-workflow-name: sbd-SBD.CORP.JOURNEY-CAA-Inbound-APIMReceive-useast-dev-la[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-tracking-id: 71278300-7ef4-46cc-8b9d-40282aa0c810[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "x-ms-request-id: eastus:71278300-7ef4-46cc-8b9d-40282aa0c810[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Strict-Transport-Security: max-age=31536000; includeSubDomains[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "Date: Mon, 10 May 2021 15:25:22 GMT[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "[\r][\n]"
+2021-05-10 20:55:22 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-05-10 20:55:22 DEBUG headers:262 - << HTTP/1.1 200 OK
+2021-05-10 20:55:22 DEBUG headers:265 - << Cache-Control: no-cache
+2021-05-10 20:55:22 DEBUG headers:265 - << Pragma: no-cache
+2021-05-10 20:55:22 DEBUG headers:265 - << Transfer-Encoding: chunked
+2021-05-10 20:55:22 DEBUG headers:265 - << Content-Type: text/plain; charset=utf-8
+2021-05-10 20:55:22 DEBUG headers:265 - << Content-Encoding: gzip
+2021-05-10 20:55:22 DEBUG headers:265 - << Expires: -1
+2021-05-10 20:55:22 DEBUG headers:265 - << Vary: Accept-Encoding
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-workflow-run-id: 08585809465651622437889109449CU00
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-correlation-id: 71278300-7ef4-46cc-8b9d-40282aa0c810
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-client-tracking-id: 08585809465651622437889109449CU00
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-trigger-history-name: 08585809465651622437889109449CU00
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-execution-location: eastus
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-workflow-system-id: /locations/eastus/scaleunits/prod-03/workflows/21a2c519adea46fa8226d9348badd1c9
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-workflow-id: 21a2c519adea46fa8226d9348badd1c9
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-workflow-version: 08585814689006886586
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-workflow-name: sbd-SBD.CORP.JOURNEY-CAA-Inbound-APIMReceive-useast-dev-la
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-tracking-id: 71278300-7ef4-46cc-8b9d-40282aa0c810
+2021-05-10 20:55:22 DEBUG headers:265 - << x-ms-request-id: eastus:71278300-7ef4-46cc-8b9d-40282aa0c810
+2021-05-10 20:55:22 DEBUG headers:265 - << Strict-Transport-Security: max-age=31536000; includeSubDomains
+2021-05-10 20:55:22 DEBUG headers:265 - << Date: Mon, 10 May 2021 15:25:22 GMT
+2021-05-10 20:55:22 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-05-10 20:55:22 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: text/plain; charset=utf-8
+2021-05-10 20:55:22 DEBUG wire:73 -  << "53[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x4][0x0][0xab][0xe6]RPP[0x0]a[0x8]Pr,([0xc8][0xc9]LN,[0xc9][0xcc][0xcf][0xf3]K[0xcc]MU[0xb2]RPrvtT[0xf0][0xcc]K[0xca]/[0xcd]KQ[0xd2]AR[0x1a][0x94]Z\[0x90][0x9f]W[0xc]V[0x13]\[0x9a][0x9c][0x9c]Z\[0xac][0x4]6[0xad][0x16][0x0]u[0xbf][0x1]MU[0x0][0x0][0x0]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "0[\r][\n]"
+2021-05-10 20:55:22 DEBUG wire:73 -  << "[\r][\n]"
+2021-05-10 20:55:22 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-05-10 20:55:23 DEBUG RestCalls:47 - io.restassured.internal.RequestSpecificationImpl@6e0ff644
+2021-05-10 20:55:23 INFO  TestUtils:17 - *** Get String Body****
+2021-05-10 20:55:23 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@3bb9efbc
+2021-05-10 20:55:23 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-05-10 20:55:23 INFO  TestUtils:33 - ********JsonPath Response for Post*****
+2021-05-10 20:55:23 INFO  InboundTesting:37 - ***** End P10_BankFee Test Cases ************
+2021-05-10 20:55:23 INFO  TestUtils:48 - **** Getting response Code*******
+2021-05-10 20:55:23 INFO  TestUtils:55 - **** Getting response Code message*******
+2021-05-10 20:55:23 INFO  Assertions:38 - io.restassured.internal.RestAssuredResponseImpl@3301500b
+2021-05-10 20:55:23 INFO  Assertions:39 - HTTP/1.1 200 OK

@@ -1,0 +1,53 @@
+{
+
+  "RecordId": "27807",
+  "Header": [
+    {
+      "RPA_HeaderID": "1335",
+      "ContentProcessID": "1050001",
+      "Account_Number": "10651",
+      "Currency": "USD",
+      "Company_Code": "1070",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "Test Data",
+      "Bank_Name": "BOA",
+      "Total_Amount": "1000.00",
+      "ERP": "SAPP10",
+      "Value_Date": "02.12.2021",
+      "Approval_Comments": "TestApprove",
+      "Approval_Reference": "testapp",
+      "Customer_Number": "10616432",
+      "Transaction_Code": "SAPP10#761#1",
+      "Tax_Code": "",
+      "Posting_Date": "04.02.2021"
+    }
+
+  ],
+
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "1",
+      "ContentProcessID": "1050001",
+      "RPA_HeaderID": "1335",
+      "Company_Code": "1070",
+      "Currency": "USD",
+      "Reference": "5400060099",
+      "Account_Number": "10651",
+      "Check_Number": "",
+      "Invoice_Number": "5400060099",
+      "Invoice_Amount": "1000.00",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2021",
+      "Tax_Code": "",
+      "Customer_Name": "SOURCE HOV",
+      "Customer_Number": "10616432",
+      "Business_Area": "",
+      "Variance": "-100",
+      "Reason_of_Variance": "DISCOUNT",
+      "GLCode": "",
+      "Comments": "approved"
+    }
+  ]
+}

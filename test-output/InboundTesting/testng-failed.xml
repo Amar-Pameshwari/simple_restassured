@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [InboundTesting]" parallel="methods">
+  <listeners>
+    <listener class-name="com.simple.restassured.ExtentReporterNG"/>
+    <listener class-name="executeFailedTestCases.transformation"/>
+  </listeners>
+  <test thread-count="1" name="perfectMatch(failed)" parallel="methods">
+    <classes>
+      <class name="Inbound_Testing.InboundTesting">
+        <methods>
+          <include name="Discount"/>
+          <include name="OnAccount"/>
+          <include name="OverPayment"/>
+          <include name="ShortPayment"/>
+          <include name="BankFee"/>
+          <include name="Sundry"/>
+          <include name="DuplicatePayment"/>
+          <include name="PerfectMatch"/>
+          <include name="WriteOff"/>
+        </methods>
+      </class> <!-- Inbound_Testing.InboundTesting -->
+    </classes>
+  </test> <!-- perfectMatch(failed) -->
+</suite> <!-- Failed suite [InboundTesting] -->

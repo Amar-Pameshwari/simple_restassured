@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="InboundTesting" verbose="1" parallel="methods" thread-count="1">
+
+<listeners>
+		<listener class-name="com.simple.restassured.ExtentReporterNG" />
+		<listener class-name="executeFailedTestCases.transformation" />
+	
+	</listeners>
+	
+  <test name="perfectMatch" allow-return-values="true">
+    <classes>
+       <!--<class name="com.simple.restassured.paymentsPostMethod" />
+       <class name="com.simple.restassured.BaseTest" /> -->
+       <class name="Inbound_Testing.InboundTesting" />
+    </classes>
+  </test>
+ </suite>
+ 
