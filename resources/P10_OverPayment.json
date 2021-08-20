@@ -1,0 +1,51 @@
+{
+  "RecordId": "3009",
+  "Header": [
+    {
+      "RPA_HeaderID": "26",
+      "ContentProcessID": "3009",
+      "Account_Number": "17127014",
+      "Currency": "USD",
+      "Company_Code": "1070",
+      "Variance": "1000.00",
+      "Reason_of_Variance": "OVER PAYMENT",
+      "GLCode": "null",
+      "Comments": "9929355799",
+      "Bank_Name": "BOA",
+      "Total_Amount": "3199.00",
+      "ERP": "SAPP10",
+      "Value_Date": "05/20/2021",
+      "Approval_Comments": "Overpayment 9929355799",
+      "Approval_Reference": "",
+      "Customer_Number": "10380717",
+      "Transaction_Code": "SAPP10#745#901",
+      "Tax_Code": "",
+      "Posting_Date": "05/20/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "60",
+      "ContentProcessID": "3009",
+      "RPA_HeaderID": "26",
+      "Company_Code": "1070",
+      "Currency": "USD",
+      "Reference": "6000001588",
+      "Account_Number": "17127014",
+      "Check_Number": "",
+      "Invoice_Number": "6000001588",
+      "Invoice_Amount": "2199.00",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2021",
+      "Tax_Code": " ",
+      "Customer_Name": "TY?KALUPALVELU",
+      "Customer_Number": "10380717",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+	  "Discountnt": "40330000#0.00"
+    }
+  ]
+}

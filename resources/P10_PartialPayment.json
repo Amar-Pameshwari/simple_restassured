@@ -1,0 +1,51 @@
+{
+  "RecordId": "3006",
+  "Header": [
+    {
+      "RPA_HeaderID": "45",
+      "ContentProcessID": "3006",
+      "Account_Number": "0017230043",
+      "Currency": "USD",
+      "Company_Code": "1070",
+      "Variance": "533.87",
+      "Reason_of_Variance": "PARTIAL PAYMENT",
+      "GLCode": "",
+      "Comments": "6000000394",
+      "Bank_Name": "BOA",
+      "Total_Amount": "468.13",
+      "ERP": "SAPP10",
+      "Value_Date": "05/19/2021",
+      "Approval_Comments": "Part 6000000394",
+      "Approval_Reference": "",
+      "Customer_Number": "10136993",
+      "Transaction_Code": "SAPP10#745#9",
+      "Tax_Code": "",
+      "Posting_Date": "05/19/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "74",
+      "ContentProcessID": "3006",
+      "RPA_HeaderID": "45",
+      "Company_Code": "1070",
+      "Currency": "USD",
+      "Reference": "6000000394",
+      "Account_Number": "0017230043",
+      "Check_Number": "",
+      "Invoice_Number": "6000000394",
+      "Invoice_Amount": "1002.00",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2021",
+      "Tax_Code": "",
+      "Customer_Name": "AKTIVBANK AG",
+      "Customer_Number": "10136993",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+	  "Discountnt": "40330000#0.00"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "RecordId": "2012",
+  "Header": [
+    {
+      "RPA_HeaderID": "3",
+      "ContentProcessID": "2012",
+      "Account_Number": "0014231",
+      "Currency": "CAD",
+      "Company_Code": "0010",
+      "Variance": "-42#-42",
+      "Reason_of_Variance": "DISCOUNT#DEL CREDERE",
+      "GLCode": "1111290#1111290",
+      "Comments": "Test",
+      "Bank_Name": "BOA",
+      "Total_Amount": "1000.80",
+      "ERP": "SAPC11",
+      "Value_Date": "0",
+      "Approval_Comments": "Cash Discount #Del Credere",
+      "Approval_Reference": "5/21/2021",
+      "Customer_Number": "6201741",
+      "Transaction_Code": "SAPC11#3225#38",
+      "Tax_Code": "",
+      "Posting_Date": "05/21/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "1",
+      "ContentProcessID": "2012",
+      "RPA_HeaderID": "3",
+      "Company_Code": "0010",
+      "Currency": "CAD",
+      "Reference": "9400019422",
+      "Account_Number": "0014231",
+      "Check_Number": "",
+      "Invoice_Number": "9400019422",
+      "Invoice_Amount": "1084.80",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": "",
+      "Customer_Name": "ZEX1",
+      "Customer_Number": "6201741",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+      "Discountnt": "40330000#0.00"
+    }
+  ]
+}

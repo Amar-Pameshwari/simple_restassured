@@ -1,53 +1,52 @@
 {
-
-  "RecordId": "27807",
+  "RecordId": "30002",
   "Header": [
     {
-      "RPA_HeaderID": "1335",
-      "ContentProcessID": "50001",
-      "Account_Number": "0010651",
+      "RPA_HeaderID": "4",
+      "ContentProcessID": "30002",
+      "Account_Number": "0266573533",
       "Currency": "USD",
       "Company_Code": "1070",
-      "Variance": "",
-      "Reason_of_Variance": "",
-      "GLCode": "121000",
-      "Comments": "Test Data",
-      "Bank_Name": "BNY",
-      "Total_Amount": "100.00",
+      "Variance": "-17.20",
+      "Reason_of_Variance": "BANK FEE",
+      "GLCode": "440013",
+      "Comments": "",
+      "Bank_Name": "BOA",
+      "Total_Amount": "5360.70",
       "ERP": "SAPP10",
-      "Value_Date": "10.31.2020",
-      "Approval_Comments": "TestApprove",
-      "Approval_Reference": "testapp",
-      "Customer_Number": "10003536",
+      "Value_Date": "05/19/2021",
+      "Approval_Comments": "Bank Charges 2020.01.29",
+      "Approval_Reference": "",
+      "Customer_Number": "2892",
       "Transaction_Code": "SAPP10#745#1",
       "Tax_Code": "",
-      "Posting_Date": "04.11.2021"
+      "Posting_Date": "05/19/2021"
     }
-
   ],
-
   "Lineitem": [
     {
-      "RPA_LineitemID": "1",
-      "ContentProcessID": "50001",
-      "RPA_HeaderID": "1335",
+      "RPA_LineitemID": "2",
+      "ContentProcessID": "30002",
+      "RPA_HeaderID": "4",
       "Company_Code": "1070",
       "Currency": "USD",
-      "Reference": "1800000315",
-      "Account_Number": "0010651",
-      "Check_Number": "010005642",
-      "Invoice_Number": "1800000315",
-      "Invoice_Amount": "100.00",
+      "Reference": "6000001861",
+      "Account_Number": "0266573533",
+      "Check_Number": "",
+      "Invoice_Number": "6000001861",
+      "Invoice_Amount": "5360.70",
       "Line_Item_Number": "1",
       "Fiscal_Year": "2021",
       "Tax_Code": "",
-      "Customer_Name": "ABB DAIMLER BENZ TRANSPORTATION",
-      "Customer_Number": "10003536",
+      "Customer_Name": "TR FASTENINGS LTD10063502",
+      "Customer_Number": "2892",
       "Business_Area": "",
-      "Variance": "-50.00",
-      "Reason_of_Variance": "Bank Fee",
-      "GLCode": "72050000",
-      "Comments": "approved"
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+	  "Discountnt": "40330000#0.00"
     }
+   
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "RecordId": "4005",
+  "Header": [
+    {
+      "RPA_HeaderID": "40",
+      "ContentProcessID": "4005",
+      "Account_Number": "00010261045",
+      "Currency": "USD",
+      "Company_Code": "1070",
+      "Variance": "568.33",
+      "Reason_of_Variance": "DEL CREDERE",
+      "GLCode": "440013",
+      "Comments": "Test",
+      "Bank_Name": "BNP",
+      "Total_Amount": "568.33",
+      "ERP": "SAPP10",
+      "Value_Date": "05/19/2021",
+      "Approval_Comments": "Del credere",
+      "Approval_Reference": "Test data",
+      "Customer_Number": "10136993",
+      "Transaction_Code": "SAPP10#745#3",
+      "Tax_Code": "",
+      "Posting_Date": "05/19/2021"
+    }
+  ],
+  "Lineitem": []
+}

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Inbound_Testing.InboundTesting">
+      <class name="Inbound_Testing.Dev_InboundTesting">
         <methods>
-          <include name="C11_Writeoff"/>
+          <include name="P10_ShortPayment"/>
         </methods>
-      </class> <!-- Inbound_Testing.InboundTesting -->
+      </class> <!-- Inbound_Testing.Dev_InboundTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

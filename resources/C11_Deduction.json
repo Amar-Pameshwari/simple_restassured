@@ -1,0 +1,51 @@
+{
+  "RecordId": "111001",
+  "Header": [
+    {
+      "RPA_HeaderID": "67",
+      "ContentProcessID": "111001",
+      "Account_Number": "0009521",
+      "Currency": "CAD",
+      "Company_Code": "1001",
+      "Variance": "",  
+      "Reason_of_Variance": "", 
+      "GLCode": "",
+      "Comments": "",
+      "Bank_Name": "RBC",
+      "Total_Amount": "87.52",
+      "ERP": "SAPC11",
+      "Value_Date": "08/05/2021",
+      "Approval_Comments": "",
+      "Approval_Reference": "",
+      "Customer_Number": "6057814",
+      "Transaction_Code": "SAPC11#73201#39",
+      "Tax_Code": "",
+      "Posting_Date": "08/05/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "1",
+      "ContentProcessID": "111001",
+      "RPA_HeaderID": "1356",
+      "Company_Code": "0010",
+      "Currency": "USD",
+      "Reference": "9434112247",
+      "Account_Number": "0009521",
+      "Check_Number": "",
+      "Invoice_Number": "9434112247",
+      "Invoice_Amount": "89.52",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2020",
+      "Tax_Code": "",
+      "Customer_Name": "HDS WHITE CAP CONSTRUCTION SUPPLY",
+      "Customer_Number": "6057814",
+      "Business_Area": "",
+      "Variance": "-2.00",
+      "Reason_of_Variance": "Deduction",
+      "GLCode": "1111290",
+      "Comments": "Comments",
+      "Discountnt": ""
+    }
+  ]
+}

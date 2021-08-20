@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  P10_C11 Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>P10_C11 Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 18 19:36:17 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>85 seconds (85826 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_BankFee()'><b>C11_BankFee</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: BankFee-C11 TC</td>
+<td></td>
+<td>42</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_Deduction()'><b>C11_Deduction</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Deduction-C11 TC</td>
+<td></td>
+<td>42</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_Discount()'><b>C11_Discount</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Discount-C11 TC</td>
+<td></td>
+<td>2</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_DuplicatePayment()'><b>C11_DuplicatePayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Duplicate Payment-C11 TC</td>
+<td></td>
+<td>3</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_OnAccount()'><b>C11_OnAccount</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: On Account-C11 TC</td>
+<td></td>
+<td>1</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_OverPayment()'><b>C11_OverPayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Over Payment-C11 TC</td>
+<td></td>
+<td>2</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_PartailPayment()'><b>C11_PartailPayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Partial Payment-C11 TC</td>
+<td></td>
+<td>3</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_PerfectMatch()'><b>C11_PerfectMatch</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: PerfectMatch-C11 TC</td>
+<td></td>
+<td>5</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_ShortPayment()'><b>C11_ShortPayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Short Payment-C11 TC</td>
+<td></td>
+<td>2</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.C11_Writeoff()'><b>C11_Writeoff</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Write Off-C11 TC</td>
+<td></td>
+<td>5</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_BankFee()'><b>P10_BankFee</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Bank Fee-P10 TC</td>
+<td></td>
+<td>5</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_Deduction()'><b>P10_Deduction</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Deduction-P10 TC</td>
+<td></td>
+<td>6</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_DelCred()'><b>P10_DelCred</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Del Cred-P10 TC</td>
+<td></td>
+<td>8</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_Discount()'><b>P10_Discount</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Discount-P10 TC</td>
+<td></td>
+<td>5</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_DuplicatePayment()'><b>P10_DuplicatePayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Duplicate Payment-P10 TC</td>
+<td></td>
+<td>3</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_OnAccount()'><b>P10_OnAccount</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: On Account- P10 TC</td>
+<td></td>
+<td>4</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_OverPayment()'><b>P10_OverPayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Over Payment-P10 TC</td>
+<td></td>
+<td>6</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_PartialPayment()'><b>P10_PartialPayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Partial Payment-P10 TC</td>
+<td></td>
+<td>3</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_PerfectMatch()'><b>P10_PerfectMatch</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Perfect Match-P10 TC</td>
+<td></td>
+<td>1</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_ShortPayment()'><b>P10_ShortPayment</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Short Payment-P10 TC</td>
+<td></td>
+<td>0</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+<tr>
+<td title='Inbound_Testing.Dev_InboundTesting.P10_WriteOff()'><b>P10_WriteOff</b><br>Test class: Inbound_Testing.Dev_InboundTesting<br>Test method: Write Off-P10 TC</td>
+<td></td>
+<td>2</td>
+<td>Inbound_Testing.Dev_InboundTesting@4bdf</td></tr>
+</table><p>
+</body>
+</html>

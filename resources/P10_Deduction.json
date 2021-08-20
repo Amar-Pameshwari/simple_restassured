@@ -1,10 +1,10 @@
 {
 
-  "RecordId": "27807",
+  "RecordId": "4007",
   "Header": [
     {
       "RPA_HeaderID": "1335",
-      "ContentProcessID": "1020003",
+      "ContentProcessID": "4007",
       "Account_Number": "10651",
       "Currency": "USD",
       "Company_Code": "1070",
@@ -13,15 +13,15 @@
       "GLCode": "",
       "Comments": "Test Data",
       "Bank_Name": "BOA",
-      "Total_Amount": "2199.00",
+      "Total_Amount": "150.50",
       "ERP": "SAPP10",
-      "Value_Date": "01.26.2021",
-      "Approval_Comments": "TestApprove",
-      "Approval_Reference": "testapp",
-      "Customer_Number": "10380717",
-      "Transaction_Code": "SAPP10#760#1",
+      "Value_Date": "05/19/2021",
+      "Approval_Comments": "",
+      "Approval_Reference": "",
+      "Customer_Number": "2892",
+      "Transaction_Code": "SAPP10#745#2",
       "Tax_Code": "",
-      "Posting_Date": "04.02.2021"
+      "Posting_Date": "05/19/2021"
     }
 
   ],
@@ -29,25 +29,26 @@
   "Lineitem": [
     {
       "RPA_LineitemID": "1",
-      "ContentProcessID": "1020003",
+      "ContentProcessID": "4007",
       "RPA_HeaderID": "1335",
       "Company_Code": "1070",
       "Currency": "USD",
-      "Reference": "6000001588",
+      "Reference": "6000000552",
       "Account_Number": "10651",
       "Check_Number": "",
-      "Invoice_Number": "6000001588",
-      "Invoice_Amount": "2199.00",
+      "Invoice_Number": "6000000552",
+      "Invoice_Amount": "160.50",
       "Line_Item_Number": "1",
       "Fiscal_Year": "2021",
       "Tax_Code": "S1",
       "Customer_Name": "THE RIVERVIEW AT LANSDOWNE WOODS",
-      "Customer_Number": "10380717",
+      "Customer_Number": "2892",
       "Business_Area": "",
-      "Variance": "-100",
+      "Variance": "-10",
       "Reason_of_Variance": "Deduction",
-      "GLCode": "",
-      "Comments": "approved"
+      "GLCode": "440013",
+      "Comments": "approved",
+      "Discountnt": "40330000#0.00"
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+
+  "RecordId": "2010",
+  "Header": [
+    {
+      "RPA_HeaderID": "1335",
+      "ContentProcessID": "2010",
+      "Account_Number": "0266573533",
+      "Currency": "CAD",
+      "Company_Code": "0010",
+      "Variance": "-50.00",
+      "Reason_of_Variance": "WRITE OFF",
+      "GLCode": "1111290",
+      "Comments": "Test Data",
+      "Bank_Name": "BOA",
+      "Total_Amount": "200.37",
+      "ERP": "SAPC11",
+      "Value_Date": "05/20/2021",
+      "Approval_Comments": "TestApprove",
+      "Approval_Reference": "Test",
+      "Customer_Number": "6201741",
+      "Transaction_Code": "SAPC11#3225#3",
+      "Tax_Code": "",
+      "Posting_Date": "05/20/2021"
+    }
+
+  ],
+
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "1",
+      "ContentProcessID": "2010",
+      "RPA_HeaderID": "1335",
+      "Company_Code": "0010",
+      "Currency": "CAD",
+      "Reference": "9400020743",
+      "Account_Number": "",
+      "Check_Number": "",
+      "Invoice_Number": "9400020743",
+      "Invoice_Amount": "250.37",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": "",
+      "Customer_Name": "TEST1 US(136)TOC",
+      "Customer_Number": "6201741",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+      "Discountnt": "40330000#0.00"
+    }
+  ]
+}

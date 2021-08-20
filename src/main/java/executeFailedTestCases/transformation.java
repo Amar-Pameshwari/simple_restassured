@@ -6,16 +6,12 @@ import org.testng.IAnnotationTransformer;
 import org.testng.IRetryAnalyzer;
 import org.testng.annotations.ITestAnnotation;
 
-
-public class transformation implements IAnnotationTransformer
-{
+public class transformation implements IAnnotationTransformer {
 	@Override
-	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) 
-	{
+	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
 		IRetryAnalyzer retry = annotation.getRetryAnalyzer();
-		
-		if(retry==null)
-		{
+
+		if (retry == null) {
 			annotation.setRetryAnalyzer(Retry.class);
 		}
 	}

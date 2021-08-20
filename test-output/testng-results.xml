@@ -1,17 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55550" started-at="2021-05-10T20:54:27 IST" finished-at="2021-05-10T20:55:23 IST">
+  <suite name="InboundTesting" duration-ms="85826" started-at="2021-08-18T19:36:17 IST" finished-at="2021-08-18T19:37:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55550" started-at="2021-05-10T20:54:27 IST" finished-at="2021-05-10T20:55:23 IST">
-      <class name="Inbound_Testing.InboundTesting">
-        <test-method status="PASS" signature="P10_BankFee()[pri:0, instance:Inbound_Testing.InboundTesting@47db50c5]" name="P10_BankFee" duration-ms="55488" started-at="2021-05-10T20:54:27 IST" finished-at="2021-05-10T20:55:23 IST">
+    <test name="P10_C11 Testing" duration-ms="85826" started-at="2021-08-18T19:36:17 IST" finished-at="2021-08-18T19:37:43 IST">
+      <class name="Inbound_Testing.Dev_InboundTesting">
+        <test-method status="PASS" signature="C11_BankFee()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_BankFee" duration-ms="42726" started-at="2021-08-18T19:36:17 IST" description="BankFee-C11 TC" finished-at="2021-08-18T19:37:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_BankFee -->
+        <test-method status="PASS" signature="C11_Deduction()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_Deduction" duration-ms="42724" started-at="2021-08-18T19:36:17 IST" description="Deduction-C11 TC" finished-at="2021-08-18T19:37:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_Deduction -->
+        <test-method status="PASS" signature="C11_Discount()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_Discount" duration-ms="2660" started-at="2021-08-18T19:37:01 IST" description="Discount-C11 TC" finished-at="2021-08-18T19:37:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_Discount -->
+        <test-method status="PASS" signature="C11_DuplicatePayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_DuplicatePayment" duration-ms="3061" started-at="2021-08-18T19:37:01 IST" description="Duplicate Payment-C11 TC" finished-at="2021-08-18T19:37:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_DuplicatePayment -->
+        <test-method status="PASS" signature="C11_OnAccount()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_OnAccount" duration-ms="1864" started-at="2021-08-18T19:37:04 IST" description="On Account-C11 TC" finished-at="2021-08-18T19:37:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_OnAccount -->
+        <test-method status="PASS" signature="C11_OverPayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_OverPayment" duration-ms="2482" started-at="2021-08-18T19:37:05 IST" description="Over Payment-C11 TC" finished-at="2021-08-18T19:37:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_OverPayment -->
+        <test-method status="PASS" signature="C11_PartailPayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_PartailPayment" duration-ms="3713" started-at="2021-08-18T19:37:06 IST" description="Partial Payment-C11 TC" finished-at="2021-08-18T19:37:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_PartailPayment -->
+        <test-method status="PASS" signature="C11_PerfectMatch()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_PerfectMatch" duration-ms="5332" started-at="2021-08-18T19:37:07 IST" description="PerfectMatch-C11 TC" finished-at="2021-08-18T19:37:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_PerfectMatch -->
+        <test-method status="PASS" signature="C11_ShortPayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_ShortPayment" duration-ms="2441" started-at="2021-08-18T19:37:10 IST" description="Short Payment-C11 TC" finished-at="2021-08-18T19:37:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_ShortPayment -->
+        <test-method status="PASS" signature="P10_BankFee()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_BankFee" duration-ms="5104" started-at="2021-08-18T19:37:13 IST" description="Bank Fee-P10 TC" finished-at="2021-08-18T19:37:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- P10_BankFee -->
-      </class> <!-- Inbound_Testing.InboundTesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="C11_Writeoff()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="C11_Writeoff" duration-ms="5118" started-at="2021-08-18T19:37:13 IST" description="Write Off-C11 TC" finished-at="2021-08-18T19:37:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C11_Writeoff -->
+        <test-method status="PASS" signature="P10_Deduction()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_Deduction" duration-ms="6804" started-at="2021-08-18T19:37:19 IST" description="Deduction-P10 TC" finished-at="2021-08-18T19:37:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_Deduction -->
+        <test-method status="PASS" signature="P10_DelCred()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_DelCred" duration-ms="8371" started-at="2021-08-18T19:37:19 IST" description="Del Cred-P10 TC" finished-at="2021-08-18T19:37:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_DelCred -->
+        <test-method status="PASS" signature="P10_Discount()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_Discount" duration-ms="5282" started-at="2021-08-18T19:37:26 IST" description="Discount-P10 TC" finished-at="2021-08-18T19:37:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_Discount -->
+        <test-method status="PASS" signature="P10_DuplicatePayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_DuplicatePayment" duration-ms="3125" started-at="2021-08-18T19:37:27 IST" description="Duplicate Payment-P10 TC" finished-at="2021-08-18T19:37:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_DuplicatePayment -->
+        <test-method status="PASS" signature="P10_OnAccount()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_OnAccount" duration-ms="4370" started-at="2021-08-18T19:37:31 IST" description="On Account- P10 TC" finished-at="2021-08-18T19:37:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_OnAccount -->
+        <test-method status="PASS" signature="P10_OverPayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_OverPayment" duration-ms="6359" started-at="2021-08-18T19:37:31 IST" description="Over Payment-P10 TC" finished-at="2021-08-18T19:37:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_OverPayment -->
+        <test-method status="PASS" signature="P10_PartialPayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_PartialPayment" duration-ms="3726" started-at="2021-08-18T19:37:36 IST" description="Partial Payment-P10 TC" finished-at="2021-08-18T19:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_PartialPayment -->
+        <test-method status="PASS" signature="P10_PerfectMatch()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_PerfectMatch" duration-ms="1920" started-at="2021-08-18T19:37:38 IST" description="Perfect Match-P10 TC" finished-at="2021-08-18T19:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_PerfectMatch -->
+        <test-method status="PASS" signature="P10_ShortPayment()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_ShortPayment" duration-ms="172" started-at="2021-08-18T19:37:40 IST" description="Short Payment-P10 TC" finished-at="2021-08-18T19:37:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_ShortPayment -->
+        <test-method status="PASS" signature="P10_WriteOff()[pri:0, instance:Inbound_Testing.Dev_InboundTesting@4bdf]" name="P10_WriteOff" duration-ms="2984" started-at="2021-08-18T19:37:40 IST" description="Write Off-P10 TC" finished-at="2021-08-18T19:37:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P10_WriteOff -->
+      </class> <!-- Inbound_Testing.Dev_InboundTesting -->
+    </test> <!-- P10_C11 Testing -->
+  </suite> <!-- InboundTesting -->
 </testng-results>

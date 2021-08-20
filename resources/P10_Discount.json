@@ -1,53 +1,51 @@
 {
-
-  "RecordId": "27807",
+  "RecordId": "3004",
   "Header": [
     {
-      "RPA_HeaderID": "1335",
-      "ContentProcessID": "1050001",
-      "Account_Number": "10651",
+      "RPA_HeaderID": "3",
+      "ContentProcessID": "3004",
+      "Account_Number": "0266573533",
       "Currency": "USD",
       "Company_Code": "1070",
-      "Variance": "",
-      "Reason_of_Variance": "",
-      "GLCode": "",
-      "Comments": "Test Data",
+      "Variance": "-50",
+      "Reason_of_Variance": "DISCOUNT",
+      "GLCode": "440013",
+      "Comments": "",
       "Bank_Name": "BOA",
-      "Total_Amount": "1000.00",
+      "Total_Amount": "1500.00",
       "ERP": "SAPP10",
-      "Value_Date": "02.12.2021",
-      "Approval_Comments": "TestApprove",
-      "Approval_Reference": "testapp",
-      "Customer_Number": "10616432",
-      "Transaction_Code": "SAPP10#761#1",
+      "Value_Date": "05/19/2021",
+      "Approval_Comments": "Cash Discount",
+      "Approval_Reference": "",
+      "Customer_Number": "10136993",
+      "Transaction_Code": "SAPP10#745#4",
       "Tax_Code": "",
-      "Posting_Date": "04.02.2021"
+      "Posting_Date": "05/19/2021"
     }
-
   ],
-
   "Lineitem": [
     {
       "RPA_LineitemID": "1",
-      "ContentProcessID": "1050001",
-      "RPA_HeaderID": "1335",
+      "ContentProcessID": "3004",
+      "RPA_HeaderID": "3",
       "Company_Code": "1070",
       "Currency": "USD",
-      "Reference": "5400060099",
-      "Account_Number": "10651",
+      "Reference": "6000001059",
+      "Account_Number": "0266573533",
       "Check_Number": "",
-      "Invoice_Number": "5400060099",
-      "Invoice_Amount": "1000.00",
+      "Invoice_Number": "6000001059",
+      "Invoice_Amount": "1500.00",
       "Line_Item_Number": "1",
       "Fiscal_Year": "2021",
       "Tax_Code": "",
-      "Customer_Name": "SOURCE HOV",
-      "Customer_Number": "10616432",
+      "Customer_Name": "test-enh-1",
+      "Customer_Number": "10136993",
       "Business_Area": "",
-      "Variance": "-100",
-      "Reason_of_Variance": "DISCOUNT",
+      "Variance": "",
+      "Reason_of_Variance": "",
       "GLCode": "",
-      "Comments": "approved"
+      "Comments": "",
+	  "Discountnt": "40330000#0.00"
     }
   ]
 }

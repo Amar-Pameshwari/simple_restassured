@@ -1,0 +1,27 @@
+{
+  "RecordId": "3001",
+  "Header": [
+    {
+      "RPA_HeaderID": "1",
+      "ContentProcessID": "3001",
+      "Account_Number": "0266573533",
+      "Currency": "USD",
+      "Company_Code": "1070",
+      "Variance": "2660.60",
+      "Reason_of_Variance": "ON ACCOUNT",
+      "GLCode": "",
+      "Comments": "1800049393",
+      "Bank_Name": "BOA",
+      "Total_Amount": "2660.60",
+      "ERP": "SAPP10",
+      "Value_Date": "05/19/2021",
+      "Approval_Comments": "Test",
+      "Approval_Reference": "",
+      "Customer_Number": "10136993",
+      "Transaction_Code": "SAPP10#745#5",
+      "Tax_Code": "",
+      "Posting_Date": "05/19/2021"
+    }
+  ],
+  "Lineitem": []
+}

@@ -1,0 +1,51 @@
+{
+  "RecordId": "2013",
+  "Header": [
+    {
+      "RPA_HeaderID": "252",
+      "ContentProcessID": "2013",
+      "Account_Number": "0017230043",
+      "Currency": "CAD",
+      "Company_Code": "0010",
+      "Variance": "324.5#324.5",
+      "Reason_of_Variance": "DEDUCTION#DISCOUNT",
+      "GLCode": "null#1111290",
+      "Comments": "assignment  # Assignment",
+      "Bank_Name": "BOA",
+      "Total_Amount": "22000.46",
+      "ERP": "SAPC11",
+      "Value_Date": "05/21/2021",
+      "Approval_Comments": "Ref 6400 remit #  Header discount",
+      "Approval_Reference": "",
+      "Customer_Number": "6201741",
+      "Transaction_Code": "SAPC11#3225#39",
+      "Tax_Code": "",
+      "Posting_Date": "05/21/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "3117",
+      "ContentProcessID": "2013",
+      "RPA_HeaderID": "252",
+      "Company_Code": "0010",
+      "Currency": "CAD",
+      "Reference": "9400019761",
+      "Account_Number": "",
+      "Check_Number": "",
+      "Invoice_Number": "9400019761",
+      "Invoice_Amount": "21351.46",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": " ",
+      "Customer_Name": "ZEX11",
+      "Customer_Number": "6201741",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+	"Discountnt": "40330000#0.00"
+    }
+  ]
+}

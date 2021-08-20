@@ -7,19 +7,31 @@
   </listeners>
   <test thread-count="1" name="perfectMatch(failed)" parallel="methods">
     <classes>
-      <class name="Inbound_Testing.InboundTesting">
+      <class name="Inbound_Testing.Dev_InboundTesting">
         <methods>
-          <include name="Discount"/>
-          <include name="OnAccount"/>
-          <include name="OverPayment"/>
-          <include name="ShortPayment"/>
-          <include name="BankFee"/>
-          <include name="Sundry"/>
-          <include name="DuplicatePayment"/>
-          <include name="PerfectMatch"/>
-          <include name="WriteOff"/>
+          <include name="C11_OverPayment"/>
+          <include name="P10_OnAccount"/>
+          <include name="C11_BankFee"/>
+          <include name="P10_ShortPayment"/>
+          <include name="P10_WriteOff"/>
+          <include name="C11_Deduction"/>
+          <include name="P10_DuplicatePayment"/>
+          <include name="P10_DelCred"/>
+          <include name="P10_PerfectMatch"/>
+          <include name="P10_BankFee"/>
+          <include name="C11_Writeoff"/>
+          <include name="P10_Deduction"/>
+          <include name="C11_ShortPayment"/>
+          <include name="C11_OnAccount"/>
+          <include name="C11_PartailPayment"/>
+          <include name="C11_PerfectMatch"/>
+          <include name="C11_DuplicatePayment"/>
+          <include name="C11_Discount"/>
+          <include name="P10_Discount"/>
+          <include name="P10_OverPayment"/>
+          <include name="P10_PartialPayment"/>
         </methods>
-      </class> <!-- Inbound_Testing.InboundTesting -->
+      </class> <!-- Inbound_Testing.Dev_InboundTesting -->
     </classes>
   </test> <!-- perfectMatch(failed) -->
 </suite> <!-- Failed suite [InboundTesting] -->

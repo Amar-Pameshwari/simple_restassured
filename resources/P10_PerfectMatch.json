@@ -1,0 +1,51 @@
+{
+  "RecordId": "3008",
+  "Header": [
+    {
+      "RPA_HeaderID": "5",
+      "ContentProcessID": "3008",
+      "Account_Number": "17127014",
+      "Currency": "USD",
+      "Company_Code": "1070",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+      "Bank_Name": "BOA",
+      "Total_Amount": "10771.50",
+      "ERP": "SAPP10",
+      "Value_Date": "05/19/2021",
+      "Approval_Comments": "",
+      "Approval_Reference": "",
+      "Customer_Number": "10352527",
+      "Transaction_Code": "SAPP10#745#10",
+      "Tax_Code": "",
+      "Posting_Date": "05/19/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "39",
+      "ContentProcessID": "3008",
+      "RPA_HeaderID": "5",
+      "Company_Code": "1070",
+      "Currency": "USD",
+      "Reference": "6000000057",
+      "Account_Number": "17127014",
+      "Check_Number": "",
+      "Invoice_Number": "6000000057",
+      "Invoice_Amount": "10771.50",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2021",
+      "Tax_Code": " ",
+      "Customer_Name": "LP Lakkap?? Oy",
+      "Customer_Number": "10352527",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+	  "Discountnt": "40330000#0.00"
+    }
+  ]
+}

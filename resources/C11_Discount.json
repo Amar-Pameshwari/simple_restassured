@@ -1,0 +1,51 @@
+{
+  "RecordId": "2005",
+  "Header": [
+    {
+      "RPA_HeaderID": "7",
+      "ContentProcessID": "2005",
+      "Account_Number": "0266573533",
+      "Currency": "CAD",
+      "Company_Code": "0010",
+      "Variance": "-65.00",
+      "Reason_of_Variance": "DISCOUNT",
+      "GLCode": "1111290",
+      "Comments": "Test",
+      "Bank_Name": "BOA",
+      "Total_Amount": "565.00",
+      "ERP": "SAPC11",
+      "Value_Date": "05/21/2021",
+      "Approval_Comments": "Cash Discount 03.12.2020",
+      "Approval_Reference": "",
+      "Customer_Number": "6201741",
+      "Transaction_Code": "SAPC11#3227#21",
+      "Tax_Code": "",
+      "Posting_Date": "05/21/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "10",
+      "ContentProcessID": "2005",
+      "RPA_HeaderID": "7",
+      "Company_Code": "0010",
+      "Currency": "CAD",
+      "Reference": "9400020512",
+      "Account_Number": "",
+      "Check_Number": "",
+      "Invoice_Number": "9400020512",
+      "Invoice_Amount": "565.00",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": "",
+      "Customer_Name": "SHIPOUTELMTEST3",
+      "Customer_Number": "6201741",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+		"Discountnt": "40330000#0.00"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "RecordId": "2011",
+  "Header": [
+    {
+      "RPA_HeaderID": "1",
+      "ContentProcessID": "2011",
+      "Account_Number": "0266573533",
+      "Currency": "CAD",
+      "Company_Code": "0010",
+      "Variance": "1602.60",
+      "Reason_of_Variance": "DUPLICATE PAYMENT",
+      "GLCode": "",
+      "Comments": "Test",
+      "Bank_Name": "BOA",
+      "Total_Amount": "1602.60",
+      "ERP": "SAPC11",
+      "Value_Date": "05/21/2021",
+      "Approval_Comments": "Test",
+      "Approval_Reference": "",
+      "Customer_Number": "A0000155",
+      "Transaction_Code": "SAPC11#3225#40",
+      "Tax_Code": "",
+      "Posting_Date": "05/21/2021"
+    }
+  ],
+  "Lineitem": []
+}

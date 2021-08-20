@@ -1,0 +1,51 @@
+{
+  "RecordId": "60001",
+  "Header": [
+    {
+      "RPA_HeaderID": "67",
+      "ContentProcessID": "60001",
+      "Account_Number": "0014231",
+      "Currency": "CAD",
+      "Company_Code": "0010",
+      "Variance": "-100",  
+      "Reason_of_Variance": "BANK FEE", 
+      "GLCode": "1111290",
+      "Comments": "Test",
+      "Bank_Name": "BNY",
+      "Total_Amount": "422.00",
+      "ERP": "SAPC11",
+      "Value_Date": "05/21/2021",
+      "Approval_Comments": "Approval_Comments",
+      "Approval_Reference": "",
+      "Customer_Number": "6202481",
+      "Transaction_Code": "SAPC11#3225#30",
+      "Tax_Code": "",
+      "Posting_Date": "05/21/2021"
+    }
+  ],
+  "Lineitem": [
+    {
+      "RPA_LineitemID": "1",
+      "ContentProcessID": "60001",
+      "RPA_HeaderID": "1336",
+      "Company_Code": "0010",
+      "Currency": "CAD",
+      "Reference": "9400019635",
+      "Account_Number": "",
+      "Check_Number": "",
+      "Invoice_Number": "9400019635",
+      "Invoice_Amount": "522.00",
+      "Line_Item_Number": "1",
+      "Fiscal_Year": "2019",
+      "Tax_Code": "",
+      "Customer_Name": "TESTING PA TR1",
+      "Customer_Number": "6202481",
+      "Business_Area": "",
+      "Variance": "",
+      "Reason_of_Variance": "",
+      "GLCode": "",
+      "Comments": "",
+      "Discountnt": "40330000#0.00"
+    }
+  ]
+}

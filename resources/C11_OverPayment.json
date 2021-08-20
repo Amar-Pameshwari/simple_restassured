@@ -1,26 +1,26 @@
 {
-  "RecordId": "27807",
+  "RecordId": "10002",
   "Header": [
     {
       "RPA_HeaderID": "1335",
-      "ContentProcessID": "40001",
-      "Account_Number": "0014231",
+      "ContentProcessID": "10002",
+      "Account_Number": "0266573533",
       "Currency": "CAD",
       "Company_Code": "0010",
-      "Variance": "",
-      "Reason_of_Variance": "",
+      "Variance": "6.00",
+      "Reason_of_Variance": "OVER PAYMENT",
       "GLCode": "",
       "Comments": "Test Data",
       "Bank_Name": "RBC",
-      "Total_Amount": "45461.42",
+      "Total_Amount": "20.40",
       "ERP": "SAPC11",
-      "Value_Date": "04.06.2021",
+      "Value_Date": "05/19/2021",
       "Approval_Comments": "TestApprove",
       "Approval_Reference": "testapp",
-      "Customer_Number": "A000045",
-      "Transaction_Code": "SAPC11#3226#23",
+      "Customer_Number": "6209901",
+      "Transaction_Code": "SAPC11#3225#31",
       "Tax_Code": "",
-      "Posting_Date": "04.07.2021"
+      "Posting_Date": "05/19/2021"
     }
 
   ],
@@ -28,47 +28,26 @@
   "Lineitem": [
     {
       "RPA_LineitemID": "1",
-      "ContentProcessID": "40001",
+      "ContentProcessID": "10002",
       "RPA_HeaderID": "1386",
       "Company_Code": "0010",
       "Currency": "CAD",
-      "Reference": "9400019374",
-      "Account_Number": "0014231",
+      "Reference": "9400020295",
+      "Account_Number": "",
       "Check_Number": "",
-      "Invoice_Number": "9400019374",
-      "Invoice_Amount": "2875.00",
+      "Invoice_Number": "9400020295",
+      "Invoice_Amount": "14.40",
       "Line_Item_Number": "1",
       "Fiscal_Year": "2019",
       "Tax_Code": "",
-      "Customer_Name": "HENRY KJELDSEN RINGKOB TOM.HAND A/S",
-      "Customer_Number": "A000045",
+      "Customer_Name": "9400020295",
+      "Customer_Number": "6209901",
       "Business_Area": "",
       "Variance": "",
       "Reason_of_Variance": "",
       "GLCode": "",
-      "Comments": "approved"
-    },
-	{
-      "RPA_LineitemID": "2",
-      "ContentProcessID": "40001",
-      "RPA_HeaderID": "1386",
-      "Company_Code": "0010",
-      "Currency": "CAD",
-      "Reference": "9400019373",
-      "Account_Number": "0014231",
-      "Check_Number": "",
-      "Invoice_Number": "9400019373",
-      "Invoice_Amount": "2875.00",
-      "Line_Item_Number": "1",
-      "Fiscal_Year": "2018",
-      "Tax_Code": "",
-      "Customer_Name": "HENRY KJELDSEN RINGKOB TOM.HAND A/S",
-      "Customer_Number": "A000045",
-      "Business_Area": "",
-      "Variance": "39711.42",
-      "Reason_of_Variance": "Over Payment",
-      "GLCode": "",
-      "Comments": "approved"
+      "Comments": "",
+	  "Discountnt": "40330000#0.00"
     }
   ]
 }
