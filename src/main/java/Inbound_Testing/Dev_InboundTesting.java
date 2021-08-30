@@ -3,14 +3,11 @@ package Inbound_Testing;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
-
 import com.simple.restassured.Assertions;
 import com.simple.restassured.RestCalls;
 import com.utilities.TestUtils;
 import com.utilities.URL;
 import com.utilities.payLoadsConvertor;
-
-import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -40,18 +37,18 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_Discount() {
 		try {
-		String Discount = payLoadsConvertor.generatePayloadString("P10_Discount.json");
-		Response response;
-		log.info("**** Test Cases : Discount Test Cases Start *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, Discount);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// JsonPath jsonResponse_post = TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** Discount Test Cases Start ************");
-		Assertions.VerifyStatusCode(response, statusCode);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String Discount = payLoadsConvertor.generatePayloadString("P10_Discount.json");
+			Response response;
+			log.info("**** Discount Test Cases Start *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, Discount);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// JsonPath jsonResponse_post = TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** Discount Test Cases Start ************");
+			Assertions.VerifyStatusCode(response, statusCode);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -72,17 +69,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_PerfectMatch() {
 		try {
-		String WriteOff = payLoadsConvertor.generatePayloadString("P10_PerfectMatch.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, WriteOff);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_PerfectMatch Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String WriteOff = payLoadsConvertor.generatePayloadString("P10_PerfectMatch.json");
+			Response response;
+			log.info("**** Start PerfectMatch TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, WriteOff);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_PerfectMatch Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -99,17 +96,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_ShortPayment() {
 		try {
-		String WriteOff = payLoadsConvertor.generatePayloadString("P10_ShortPayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, WriteOff);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_ShortPayment Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String WriteOff = payLoadsConvertor.generatePayloadString("P10_ShortPayment.json");
+			Response response;
+			log.info("**** Start ShortPayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, WriteOff);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_ShortPayment Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -126,17 +123,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_BankFee() {
 		try {
-		String BankFee = payLoadsConvertor.generatePayloadString("P10_BankFee.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, BankFee);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_BankFee Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String BankFee = payLoadsConvertor.generatePayloadString("P10_BankFee.json");
+			Response response;
+			log.info("**** Start BankFee TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, BankFee);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_BankFee Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -153,17 +150,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_Deduction() {
 		try {
-		String Deduction = payLoadsConvertor.generatePayloadString("P10_Deduction.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, Deduction);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_Deduction Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String Deduction = payLoadsConvertor.generatePayloadString("P10_Deduction.json");
+			Response response;
+			log.info("**** Start Deduction TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, Deduction);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_Deduction Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -180,17 +177,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_OverPayment() {
 		try {
-		String OverPayment = payLoadsConvertor.generatePayloadString("P10_OverPayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, OverPayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_Deduction Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String OverPayment = payLoadsConvertor.generatePayloadString("P10_OverPayment.json");
+			Response response;
+			log.info("**** Start OverPayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, OverPayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_Deduction Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -207,17 +204,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_DuplicatePayment() {
 		try {
-		String DuplicatePayment = payLoadsConvertor.generatePayloadString("P10_DuplicatePayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, DuplicatePayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_Deduction Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String DuplicatePayment = payLoadsConvertor.generatePayloadString("P10_DuplicatePayment.json");
+			Response response;
+			log.info("**** Start DuplicatePayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, DuplicatePayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_Deduction Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -234,18 +231,18 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_DelCred() {
 		try {
-		String DelCred = payLoadsConvertor.generatePayloadString("P10_DelCred.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, DelCred);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		// log.info(jsonResponse_post.getString("id"));
-		log.info("***** End P10_Sundry Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String DelCred = payLoadsConvertor.generatePayloadString("P10_DelCred.json");
+			Response response;
+			log.info("**** Start DelCred TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, DelCred);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			// log.info(jsonResponse_post.getString("id"));
+			log.info("***** End P10_Sundry Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -262,17 +259,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_WriteOff() {
 		try {
-		String WriteOff = payLoadsConvertor.generatePayloadString("P10_WriteOff.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, WriteOff);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_WriteOff Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String WriteOff = payLoadsConvertor.generatePayloadString("P10_WriteOff.json");
+			Response response;
+			log.info("**** Start WriteOff TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, WriteOff);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_WriteOff Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -289,17 +286,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_OnAccount() {
 		try {
-		String WriteOff = payLoadsConvertor.generatePayloadString("P10_OnAccount.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, WriteOff);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_OnAccount Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String WriteOff = payLoadsConvertor.generatePayloadString("P10_OnAccount.json");
+			Response response;
+			log.info("**** Start OnAccount TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, WriteOff);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_OnAccount Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -316,17 +313,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void P10_PartialPayment() {
 		try {
-		String PartialPayment = payLoadsConvertor.generatePayloadString("P10_PartialPayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, PartialPayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End P10_OverPayment Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String PartialPayment = payLoadsConvertor.generatePayloadString("P10_PartialPayment.json");
+			Response response;
+			log.info("**** Start PartialPayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, PartialPayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End P10_OverPayment Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -343,17 +340,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_BankFee() {
 		try {
-		String BankFee = payLoadsConvertor.generatePayloadString("C11_BankFee.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, BankFee);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_BankFee Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String BankFee = payLoadsConvertor.generatePayloadString("C11_BankFee.json");
+			Response response;
+			log.info("**** Start BankFee TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, BankFee);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_BankFee Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -370,17 +367,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_OnAccount() {
 		try {
-		String OnAccount = payLoadsConvertor.generatePayloadString("C11_OnAccount.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, OnAccount);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_OnAccount Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String OnAccount = payLoadsConvertor.generatePayloadString("C11_OnAccount.json");
+			Response response;
+			log.info("**** Start BankFee TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, OnAccount);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_OnAccount Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -397,17 +394,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_PerfectMatch() {
 		try {
-		String perfectMatch = payLoadsConvertor.generatePayloadString("C11_perfectMatch.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, perfectMatch);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_PerfectMatch Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String perfectMatch = payLoadsConvertor.generatePayloadString("C11_perfectMatch.json");
+			Response response;
+			log.info("**** Start PerfectMatch TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, perfectMatch);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_PerfectMatch Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -424,17 +421,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_OverPayment() {
 		try {
-		String OverPayment = payLoadsConvertor.generatePayloadString("C11_OverPayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, OverPayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_OverPayment Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String OverPayment = payLoadsConvertor.generatePayloadString("C11_OverPayment.json");
+			Response response;
+			log.info("**** Start OverPayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, OverPayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_OverPayment Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -451,17 +448,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_ShortPayment() {
 		try {
-		String ShortPayment = payLoadsConvertor.generatePayloadString("C11_ShortPayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, ShortPayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_ShortPayment Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String ShortPayment = payLoadsConvertor.generatePayloadString("C11_ShortPayment.json");
+			Response response;
+			log.info("**** Start ShortPayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, ShortPayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_ShortPayment Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -478,17 +475,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_Deduction() {
 		try {
-		String Deduction = payLoadsConvertor.generatePayloadString("C11_Deduction.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, Deduction);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_Deduction Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String Deduction = payLoadsConvertor.generatePayloadString("C11_Deduction.json");
+			Response response;
+			log.info("**** Start Deduction TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, Deduction);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_Deduction Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -505,17 +502,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_Discount() {
 		try {
-		String Discount = payLoadsConvertor.generatePayloadString("C11_Discount.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, Discount);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_Discount Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String Discount = payLoadsConvertor.generatePayloadString("C11_Discount.json");
+			Response response;
+			log.info("**** Start Discount TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, Discount);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_Discount Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -532,17 +529,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_PartailPayment() {
 		try {
-		String PartialPayment = payLoadsConvertor.generatePayloadString("C11_PartailPayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, PartialPayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_Sundry Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String PartialPayment = payLoadsConvertor.generatePayloadString("C11_PartailPayment.json");
+			Response response;
+			log.info("**** Start PartailPayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, PartialPayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_Sundry Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -559,17 +556,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_Writeoff() {
 		try {
-		String ShortPayment = payLoadsConvertor.generatePayloadString("C11_Writeoff.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, ShortPayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_Writeoff Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String ShortPayment = payLoadsConvertor.generatePayloadString("C11_Writeoff.json");
+			Response response;
+			log.info("**** Start Writeoff TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, ShortPayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_Writeoff Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -586,17 +583,17 @@ public class Dev_InboundTesting {
 	@Issue("Bug")
 	public static void C11_DuplicatePayment() {
 		try {
-		String DuplicatePayment = payLoadsConvertor.generatePayloadString("C11_DuplicatePayment.json");
-		Response response;
-		log.info("**** Test Cases : Post Method *****");
-		String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
-		response = RestCalls.PostRequest(DevURLAccess, DuplicatePayment);
-		String strPostResponse = TestUtils.getStrResponse(response);
-		TestUtils.jsonPostParser(strPostResponse);
-		// log.debug(jsonResponse_post);
-		log.info("***** End C11_Writeoff Test Cases ************");
-		Assertions.VerifyStatusCode(response, 200);
-		Assertions.VerifyStatusCodeMessage(response, responseMessage);
+			String DuplicatePayment = payLoadsConvertor.generatePayloadString("C11_DuplicatePayment.json");
+			Response response;
+			log.info("**** Start DuplicatePayment TC *****");
+			String DevURLAccess = URL.DevEndPoint_PostRequest(Dev_Test_resource);
+			response = RestCalls.PostRequest(DevURLAccess, DuplicatePayment);
+			String strPostResponse = TestUtils.getStrResponse(response);
+			TestUtils.jsonPostParser(strPostResponse);
+			// log.debug(jsonResponse_post);
+			log.info("***** End C11_Writeoff Test Cases ************");
+			Assertions.VerifyStatusCode(response, 200);
+			Assertions.VerifyStatusCodeMessage(response, responseMessage);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
