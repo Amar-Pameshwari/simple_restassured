@@ -1,28 +1,32 @@
 pipeline{
 	agent any
 	
+	tools{
+		maven "3.8.2"
+		}
 	stages{
 	
-		stage('Compile Stage'){
+		stage("Compile Stage"){
 			steps{
-				withMaven(maven : 'apache-maven-3.8.1'){
-					sh 'mvn clean compile'
-					}
+					sh "mvn -version"
+					sh "mvn clean compile"	
 				}
 			}
-		stage('Testing Stage'){
+		stage("Testing Stage"){
 			steps{
-				withMaven(maven : 'apache-maven-3.8.1'){
-					sh 'mvn test'
-					}
+					sh "mvn test"
 				}
 			}
-		stage('Deployment Stage'){
+		stage("Deployment Stage"){
 			steps{
-				withMaven(maven : 'apache-maven-3.8.1'){
-					sh 'mvn deploy'
-					}
+					sh "mvn deploy"
 				}
+			}
+		}
+		
+		post{
+			always{
+				cleanWs()
 			}
 		}
 }
