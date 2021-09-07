@@ -8,18 +8,18 @@ pipeline{
 	
 		stage("Compile Stage"){
 			steps{
-					bat "mvn -version"
-					bat "mvn clean compile"	
+					bat 'mvn -version'
+					bat 'mvn clean compile'
 				}
 			}
 		stage("Testing Stage"){
 			steps{
-					bat "mvn test"
+					bat 'mvn test'
 				}
 			}
 		stage("Deployment Stage"){
 			steps{
-					bat "mvn deploy"
+					bat 'mvn deploy'
 				}
 			}
 		}
